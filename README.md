@@ -4,7 +4,7 @@
 
 # libraries
 
-    discord.py
+discord.py
 
 # ref
 
