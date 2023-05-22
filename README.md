@@ -1,6 +1,6 @@
-# idle-dungeon-crawler
+# idle-dungeon-crawl
 
-    'Dungeocord' is planned to be a text based idle dungeon crawler game that can be played on Discord.
+    'IDC' - IDLE DUNGEON CRAWL - Discord Bot
 
 # libraries
 
@@ -8,4 +8,5 @@
 
 # ref
 
-    https://discordpy.readthedocs.io/en/stable/intro.html
+    https://discordpy.readthedocs.io/
+    https://docs.python.org/3/library/
