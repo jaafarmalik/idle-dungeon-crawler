@@ -1,10 +1,8 @@
 # idle-dungeon-crawler
-
-    'Dungeocord' is planned to be a text based idle dungeon crawler game that can be played on Discord.
+'Dungeocord' is planned to be a text based idle dungeon crawler game that can be played on Discord.
 
 # libraries
-
-    discord.py
+discord.py
 
 # ref
 
