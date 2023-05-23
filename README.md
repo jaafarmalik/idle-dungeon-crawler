@@ -1,6 +1,6 @@
 # idle-dungeon-crawl
 
-    'IDC' - IDLE DUNGEON CRAWL - Discord Bot
+    Idle Dungeon Crawl - Discord Bot
 
 # libraries
 
