@@ -8,5 +8,6 @@ discord.py
 
 # ref
 
-    https://discordpy.readthedocs.io/
     https://docs.python.org/3/library/
+    https://discordpy.readthedocs.io/
+    
