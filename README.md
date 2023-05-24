@@ -1,6 +1,6 @@
-s# title     idle-dungeon-crawler
+# title idle-dungeon-crawler
 
-   Online idle adventure trading card game 
+Online Idle Adventure - Trading Card Game
 
 ### description
 
@@ -10,27 +10,25 @@ Craft new cards to define your playthrough and unlock new interactions-- unlocki
 
 Along the way, each and every new card you create regardless of how, is immortalized with you forever with a viewable signed credit of discovery!
 
-As you trade with others to refine your collection, view the unique identity of each cards signature, discover the history. 
+As you trade with others to refine your collection, view the unique identity of each cards signature, discover the history.
 
 Each card has a story...
 
 [ COMING SOON ]
 
-
-
 # lib
-   - discord.py
+
+        discord.py
 
 # ref
+
     https://docs.python.org/3/library/
     https://discordpy.readthedocs.io/
 
 # tools
-Ide~:
-    - vscode
-Images~:
-    - paint.net
-Docs~:
-    - github-pages
-    - obsidian.md
-    - jekyll
+
+        vscode
+        paint.net
+        github-pages
+        obsidian.md
+        jekyll
