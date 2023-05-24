@@ -1,15 +1,22 @@
-###
-### Bot entry
-###
-
-import config
-import debug
-
 import discord
+import config
 
-# from discord import Client
+##### ##### ##### ##### ##### #####
+###
+### Initialize - bot.py
+###
+##### ##### ##### ##### ##### #####
 
-client = discord.Client()
+intents = discord.Intents.default()
+intents.message_content = True
+
+client = discord.Client(intents=intents)
+
+
+@client.event
+async def on_ready():
+    if config.DEBUG == True:
+        return message.channel.send(f"We have logged in as {client.user}")
 
 
 @client.event
