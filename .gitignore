@@ -1,6 +1,9 @@
-#Redacated for security 
-/config.py
+# Personal development files
+
 .vscode/
+config.py/
+/docs/_devpost/
+/docs/.obsidian/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
