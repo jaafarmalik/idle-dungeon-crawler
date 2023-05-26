@@ -1,27 +1,46 @@
+import asyncio
+import os
+import sys
+import json
+
 import discord
+from discord.ext.commands import Bot
+
 import config
 
-##### ##### ##### ##### ##### #####
-###
-### Initialize - bot.py
-###
-##### ##### ##### ##### ##### #####
+"""
+    Initialize Discord Bot - bot.py
+"""
+
+if not os.path.isfile(f"{os.path.realpath(os.path.dirname(__file__))}/config.json"):
+    sys.exit("Unable to find: 'config.json'")
+else:
+    with open(f"{os.path.realpath(os.path.dirname(__file__))}/config.json") as file:
+        config = json.load(file)
 
 intents = discord.Intents.default()
-intents.message_content = True
+# intents.message_content = True
 
-client = discord.Client(intents=intents)
+bot = Bot(
+    command_prefix="!",
+    intents=intents,
+)
+
+client = discord = discord.Client(intents=intents)
 
 
 @client.event
 async def on_ready():
-    if config.DEBUG == True:
-        return message.channel.send(f"We have logged in as {client.user}")
+    print("We have logged in")
+    return
 
 
 @client.event
-async def on_ready():
-    print(f"  [IDC]: SUCCESSFULLY EXECUETED ON USER: {client.user}")
+async def on_message(message):
+    if message.author == client.user:
+        return
+    if message.content == "ping":
+        await message.channel.send("pong")
 
 
-client.run(config.TOKEN)
+client.run(config["token"])
