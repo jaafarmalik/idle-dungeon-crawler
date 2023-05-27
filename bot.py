@@ -6,8 +6,6 @@ import json
 import discord
 from discord.ext.commands import Bot
 
-import config
-
 """
     Initialize Discord Bot - bot.py
 """
